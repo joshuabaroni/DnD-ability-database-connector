@@ -1,0 +1,16 @@
+# curl -X POST "https://b769ec4a-2a5a-4338-a990-fb943f7d4086-us-east-1.apps.astra.datastax.com/api/rest/v2/namespaces/Abilities/collections/test_collection" -H  "accept: application/json" -H  "X-Cassandra-Token: AstraCS:WWzsOMzGhSTlUDgjFFrfXMMT:b43cf40a0d76e24f4f7ace77f2f5514206387ef4e2d53b0ad8ac55ce34a0906b" -H  "Content-Type: application/json" -d "{ \"HP+5\":{  \"statsAffected\":{   \"hp\":\"+5\"  } }}"
+POST https://b769ec4a-2a5a-4338-a990-fb943f7d4086-us-east-1.apps.astra.datastax.com/api/rest/v2/namespaces/Abilities/collections/test_collection
+accept: application/json
+X-Cassandra-Token: AstraCS:WWzsOMzGhSTlUDgjFFrfXMMT:b43cf40a0d76e24f4f7ace77f2f5514206387ef4e2d53b0ad8ac55ce34a0906b
+Content-Type: application/json
+
+{
+  "HP+5": {
+    "statsAffected": {
+      "hp": "+5"
+    }
+  }
+}
+
+###
+
